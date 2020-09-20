@@ -1,0 +1,97 @@
+/* Made By Prathmesh Thorat */
+body {
+    margin:0;
+    padding:0;
+    background-color:#000;
+}
+#container{
+    margin-left:15px;
+    margin-top:250px;
+    item-align:center ;
+    color:#fff;
+    font-size:30px;
+}
+span{
+    position:absolute ;
+    margin-top:-40px;
+    margin-left:55px;
+    font-weight:bolder;
+}
+.bars{
+    background-color:#708090;
+    width:30px;
+    justify-content:space-around;
+    display:inline-block ;   
+    position:absolute  ;    
+    transform:rotate(180deg); 
+}
+.bar1{
+    height:2px;
+    animation:bar1 5s ease-in-out infinite ;
+    margin-left:40px;
+}
+@keyframes bar1{
+    0%{height:2px;}
+    50%{height:100px;}
+    100%{height:2px;}    
+}
+.bar2{
+    height:2px;
+    animation:bar2 5s ease-in-out 0.5s infinite ;
+    margin-left:80px;
+}
+@keyframes bar2{
+    0%{height:2px;}
+    50%{height:100px;}
+    100%{height:2px;}
+}
+.bar3{
+    height:2px;
+    animation:bar3 5s ease-in-out 1s infinite ;
+    margin-left:120px;
+}
+@keyframes bar3{
+    0%{height:2px;}
+    50%{height:100px;}
+    100%{height:2px;}
+}
+.bar4{
+    height:2px;
+    animation:bar4 5s ease-in-out 1.5s infinite ;
+    margin-left:160px;
+}
+@keyframes bar4{
+    0%{height:2px;}
+    50%{height:100px;}
+    100%{height:2px;}
+}
+.bar5{
+    height:2px;
+    animation:bar5 5s ease-in-out 2s infinite ;
+    margin-left:200px;
+} 
+@keyframes bar5{
+    0%{height:2px;}
+    50%{height:100px;}
+    100%{height:2px;}
+}  
+.bar6{
+    height:2px;
+    animation:bar6 5s ease-in-out 2.5s infinite ;
+    margin-left:240px;
+}   
+@keyframes bar6{
+    0%{height:2px;}
+    50%{height:100px;}
+    100%{height:2px;}
+}
+.bar7{
+    height:2px;
+    animation:bar7 5s ease-in-out 3s infinite ;
+    margin-left:280px;
+}   
+@keyframes bar7{
+    0%{height:2px;}
+    50%{height:100px;}
+    100%{height:2px;}
+} 
